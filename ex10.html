@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>\</title>
+  </head>
+  <body>
+    <h1>Object</h1>
+    <h2>Create</h2>
+    <script>
+      var coworkers = {
+        "programmer":"mojaeya",
+        "designer" : "hojae"
+      };
+      document.write("programmer : "+coworkers.programmer+"<br>");
+      document.write("designer : "+coworkers.designer+"<br>");
+      coworkers.bookkeeper = "duru";
+      document.write("bookkeeper : "+coworkers.bookkeeper+"<br>");
+      coworkers["data scientist"] = "mojae";
+      document.write("data scientist : "+coworkers["data scientist"]+"<br>");
+      //띄어쓰기가 있기 때문에 .을 그대로 쓸수 없어서 대괄호 활용
+    </script>
+  </body>
+</html>
